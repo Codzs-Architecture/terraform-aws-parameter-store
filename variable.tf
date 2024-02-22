@@ -1,23 +1,23 @@
 variable "domain_name" {
-  type = string
+  type        = string
   description = "Domain name for the organization"
-  default = "codzs.space"
+  default     = "codzs.space"
 }
 
 variable "terraform_registry_domain_name" {
-  type = string
+  type        = string
   description = "Terraform registry domain name for the organization"
-  default = "Codzs-Architecture"
+  default     = "Codzs-Architecture"
 }
 
 variable "application_name" {
-  type = string
+  type        = string
   description = "Application name for the stack"
-  default = "codzs"
+  default     = "codzs"
 }
 
 variable "default_region" {
-  type = string
+  type        = string
   description = "Default deployment region for aws"
-  default = "ap-southeast-2"
+  default     = "ap-southeast-2"
 }
