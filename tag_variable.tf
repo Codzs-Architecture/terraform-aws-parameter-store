@@ -82,12 +82,6 @@ variable "patch_cycle_tag_key" {
   default = "PatchCycle"
 }
 
-variable "patch_cycle_tag_key" {
-  type        = string
-  description = "A list of tag values to enforce for the 'Patch Cycle' tag."
-  default = "PatchCycle"
-}
-
 variable "power_management_tag_key" {
   type        = string
   description = "A list of tag values to enforce for the 'Power Management' tag."
