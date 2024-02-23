@@ -76,6 +76,12 @@ resource "aws_ssm_parameter" "department_tag_value" {
   value = join(",", var.department_tag_value)
 }
 
+resource "aws_ssm_parameter" "patch_cycle_tag_key" {
+  name  = "/aft_extension/org/tag/patch_cycle_tag_key"
+  type  = "String"
+  value = var.patch_cycle_tag_key
+}
+
 resource "aws_ssm_parameter" "power_management_tag_key" {
   name  = "/aft_extension/org/tag/power_management_tag_key"
   type  = "String"

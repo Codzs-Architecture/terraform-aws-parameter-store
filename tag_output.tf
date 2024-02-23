@@ -54,6 +54,10 @@ output "patch_cycle_tag_key" {
   value = var.patch_cycle_tag_key
 }
 
+output "patch_cycle_tag_key" {
+  value = var.patch_cycle_tag_key
+}
+
 output "power_management_tag_key" {
   value = var.power_management_tag_key
 }
